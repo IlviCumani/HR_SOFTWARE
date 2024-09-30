@@ -1,0 +1,38 @@
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 300px;
+}
+
+.loader-icon {
+  width: 40px;
+  height: 40px;
+  color: #2a9be6;
+}
+
+.rotations {
+  display: flex;
+  gap: 35px;
+  position: absolute;
+  animation: rotate 2s linear infinite;
+}
+
+.rotations::before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

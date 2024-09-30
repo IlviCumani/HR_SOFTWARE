@@ -1,0 +1,61 @@
+.about-us {
+  background-image: url("../../../assets/company.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+.about-us-inner {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; 
+  padding: 20px;
+}
+.ant-layout-content {
+  overflow-x: scroll;
+}
+
+.ant-steps {
+  margin-left: 40px;
+}
+
+.aboutus-avatar {
+  width: 100px;
+  height: 100px;
+}
+
+.ant-card-meta-detail {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.company-main-flex{
+  display: flex;
+  flex-direction: column;
+}
+
+h2.ant-typography.about-us-title.css-dev-only-do-not-override-1pg9a38{
+  color: white;
+  margin-bottom: 0;
+}
+
+.about-us-para{
+  font-size: 17px;
+  font-weight: lighter;
+  color: white;
+}
+
+h2.ant-typography.mission-title.css-dev-only-do-not-override-1pg9a38{
+  margin-left: 20px;
+}
+
+.mission-para{
+  font-size: 17px;
+  margin-left: 40px;
+}
+
+.mission-title{
+  margin-left: 40px;
+}

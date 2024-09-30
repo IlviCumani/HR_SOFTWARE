@@ -1,0 +1,22 @@
+.loged-user-card {
+  /* width: 300px; */
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.loged-user-panel {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* gap: 10px; */
+  /* padding: 10px 0; */
+  /* border-radius: 5px; */
+  font-size: 14px;
+}
+
+.colapsed-avatar-container {
+  width: 100%;
+  margin: 25px 0;
+}

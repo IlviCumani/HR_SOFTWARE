@@ -1,0 +1,22 @@
+.approve {
+  background: #246afe;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  margin-right: 10px;
+  /* make it disable; */
+}
+
+.approved {
+  background: #46b549;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  margin-right: 10px;
+  /* make it disable; */
+  pointer-events: none;
+}

@@ -1,0 +1,18 @@
+.card-qoute-flex {
+    align-items: center;
+}
+
+.qoute-line {
+    font-weight: lighter;
+    font-size: 17px;
+}
+
+.author-line {
+    font-weight: lighter;
+    float: right;
+}
+
+.qoute-img {
+    width: 178px;
+    height: 184px;
+}

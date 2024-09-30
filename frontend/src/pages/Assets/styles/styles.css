@@ -1,0 +1,9 @@
+.inner-table-container {
+	max-width: 100%;
+	/* max-height: 500px;
+	overflow-y: auto; */
+}
+
+.inner-table-container table tr {
+	background-color: #ffffffc9;
+}

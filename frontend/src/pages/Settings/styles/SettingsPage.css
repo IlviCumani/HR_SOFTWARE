@@ -1,0 +1,25 @@
+.contact-card{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.body-contact-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-contact{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.settings-main-div {
+    width: 650px;
+}
+
+.inside-contact-card {
+    display: flex;
+    flex-direction: column;
+}

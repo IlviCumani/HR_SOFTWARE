@@ -1,0 +1,24 @@
+.ant-popover-inner {
+    width: 400px;
+   }
+/* .ant-list {
+    width: fit-content
+   } */
+
+.markAsRead {
+    color:blue;
+    cursor: pointer;
+}
+
+.nav-menu-icon {
+    cursor: pointer;
+}
+
+.notification-is-read{
+    background-color: rgb(255, 253, 254);
+    margin-top: 8px;
+}
+
+.notification-NavList {
+    height: fit-content;
+}

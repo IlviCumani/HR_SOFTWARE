@@ -1,0 +1,36 @@
+.container {
+  background-color: white;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.task-title {
+  color: black;
+  font-family: "Arial";
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.add-btn {
+  background: white;
+  padding: 10px;
+  min-width: 3rem;
+  min-height: 3rem;
+  border: 1px solid #246afe;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 10px 20px;
+  color: #246afe;
+}
+
+.ant-table-wrapper {
+  margin-top: 1rem;
+}

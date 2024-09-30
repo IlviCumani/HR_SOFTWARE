@@ -1,0 +1,37 @@
+.root-page-container {
+	height: 100vh;
+	background-color: white;
+	overflow-x: hidden;
+}
+
+.root-content-container {
+	height: "100%";
+	/* overflow: "hidden"; */
+}
+
+.sidebar-menu {
+	border-right: #e8e2e2 1px solid;
+}
+
+.content-outlet-container {
+	padding: 0 30px;
+	overflow-x: scroll;
+}
+
+.float-button {
+	&& .ant-float-btn-body {
+		background: linear-gradient(135deg, #30d3cb, #2a9be6, #2a9be6);
+	}
+	&& .ant-float-btn-body:hover {
+		background: #2a9be6;
+	}
+}
+
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+::-webkit-scrollbar:hover{
+	display: block
+}

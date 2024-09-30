@@ -1,0 +1,15 @@
+.navlink-text {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.white-navlink-text {
+  transition: all 0.3s ease-in-out;
+  color: #dbdbdb;
+}
+
+.white-navlink-text:hover {
+  color: #fff;
+}

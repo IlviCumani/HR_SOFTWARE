@@ -1,0 +1,127 @@
+.active-dashboard {
+	display: flex;
+	height: 125px;
+	width: 250px;
+	border-radius: 10px;
+	flex-direction: column;
+	box-shadow: 3.9px 7.8px 7.8px hsla(0, 0%, 69%, 0.407);
+}
+
+.hr-card-status {
+	color: white;
+	margin: 0;
+	font-weight: lighter;
+}
+
+h1.ant-typography.hr-card-title.css-dev-only-do-not-override-1pg9a38 {
+	color: white;
+	margin: 0;
+}
+
+.active-dashboard {
+	width: 100%;
+	min-width: 275px;
+}
+
+.welcome-grid {
+	/* margin-right: 20px;// */
+	/* margin-left: 20px;// */
+	/* padding-right: 30px/; */
+	max-width: 100%;
+}
+
+h1.ant-typography.title-piechart.css-dev-only-do-not-override-1pg9a38 {
+	text-align: center;
+	font-size: 23px;
+	margin: 0;
+}
+
+.graph-row.ant-row.css-dev-only-do-not-override-1pg9a38 {
+	flex-flow: nowrap;
+	margin-top: 20px;
+}
+
+.hr-buttons {
+	margin-right: 10px;
+}
+
+.hr-card-title {
+	margin: 0;
+}
+
+.remote {
+	background-color: white;
+}
+
+.dismissed {
+	background-color: white;
+}
+
+.bonus-graph {
+	width: 100%;
+}
+
+.pie-chart {
+	background-color: white;
+	width: 250px;
+	height: 330px;
+	border-radius: 10px;
+}
+
+.qoute-row{
+	box-shadow: 3.9px 7.8px 7.8px hsla(0, 0%, 69%, 0.407);
+	margin-bottom: 10px;
+}
+
+.dashboard-main {
+	flex-direction: row;
+}
+
+.holiday-card{
+	display: flex;
+	justify-content: center;
+}
+
+.pie-chart.ant-card-body {
+	margin-top: 20px;
+}
+
+@media (max-width: 1360px) {
+	.dashboard-main {
+		flex-direction: column !important;
+	}
+
+	.welcome-grid {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.qoute-row {
+		display: flex;
+		gap: 20px;
+	}
+
+	.card-qoute-flex {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+.card-qoute-flex {
+	display: flex;
+	flex-direction: column;
+}
+
+@media (max-width:1024px) {
+	.hr-button-statistcs{
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 808px) {
+	.active-dashboard {
+		height: 150px;
+	}
+
+}

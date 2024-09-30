@@ -1,0 +1,22 @@
+.navigation-menu-logo {
+  /* background: linear-gradient(135deg, #30d3cb, #2a9be6, #246afe); */
+  width: 100%;
+  padding: 5px 0;
+  display: flex;
+  justify-content: start;
+  padding: 0 30px;
+  align-items: center;
+  gap: 15px;
+}
+
+.navigation-menu-logo-image {
+  width: 50px;
+  height: 50px;
+  scale: 1.2;
+}
+
+.navigation-menu-logo-text {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+}

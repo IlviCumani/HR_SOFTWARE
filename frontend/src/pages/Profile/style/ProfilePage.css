@@ -1,0 +1,65 @@
+.ant-card-body {
+  display: flow;
+}
+
+.main-flex-profile {
+  display: flex;
+  justify-content: center;
+}
+
+.avatar-profile-card {
+  margin-top: 20px;
+  align-items: center;
+}
+
+.edit-button {
+  margin-top: 10px;
+}
+
+.personal-info-card {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0 20px 0;
+  height: 100%;
+}
+
+.avatar-personal-info {
+  width: 40px;
+  height: 40px;
+  background-color: #e6eeff;
+}
+
+.ant-card-meta.meta-personal-info {
+  margin-left: 10px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.inside-profile-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.username-title-profile {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  color: rgb(120, 120, 120);
+}
+
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+}
+
+@media (max-width: 1023px) {
+  .main-flex-profile {
+    display: flex;
+    flex-direction: column;
+  }
+}

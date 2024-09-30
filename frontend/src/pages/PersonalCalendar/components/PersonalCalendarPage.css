@@ -1,0 +1,26 @@
+button.fc-prev-button.fc-button.fc-button-primary,
+button.fc-next-button.fc-button.fc-button-primary {
+    background: linear-gradient(135deg, #30d3cb, #2a9be6, #2a9be6);
+    border: #2a9be6;
+}
+
+button.fc-today-button.fc-button.fc-button-primary {
+    background-color: #2fcbcf;
+    border: #2fcbcf;
+}
+
+.modal-date-picker {
+    width: 225px;
+}
+
+.modal-date-picker-end {
+    width: 225px;
+}
+
+.modal-time-picker {
+    width: 225px;
+}
+
+.modal-time-picker-end {
+    width: 225px;
+}

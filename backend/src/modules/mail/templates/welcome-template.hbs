@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{title}}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: fit-content; 
+        }
+        .container {
+            width: 100%;
+            max-width: 600px; 
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            flex-direction: column;
+            justify-content: space-between;
+            height: fit-content; 
+        }
+      p, h3, h4 {
+            color: #333333;
+        }
+        .content {
+            flex-grow: 1;
+            width: 100%;
+        }
+        .image-container {
+            margin-bottom: 20px; 
+        }
+        img {
+            width: 100%;
+            max-width: 400px;
+            height: auto; 
+        }
+        button {
+            background-color: #007BFF; 
+            color: white;
+            border: none; 
+            border-radius: 4px;
+            padding: 10px 20px; 
+            font-size: 16px; 
+            cursor: pointer; 
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #0056b3; 
+        }
+        button:focus {
+            outline: none; 
+        }
+        .footer {
+            margin-top: 20px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="https://firebasestorage.googleapis.com/v0/b/hrsoftware-75457.appspot.com/o/loginlogo.png?alt=media&token=91067b33-aac0-4cc0-91ea-3759973aa59d" alt="Welcome Image" />
+        </div>
+        <div class="content">
+            <h3>P&euml;rsh&euml;ndetje, {{name}}!</h3>
+            <h4>Mir&euml;sevini n&euml; HRSoftware!</h4>
+            <p>Kredencialet tuaja p&euml;r tu loguar n&euml; sistem jan&euml;:</p>
+            <p>Email: {{email}}</p>
+            <p>Password: {{password}}</p>
+        </div>
+        <a href="https://www.codevider.com/"><button type="button">Hyr n&euml; llogari</button></a>
+        <div class="footer">
+            <h4>Faleminderit, {{hr}}!</h4>
+            <h4>Departamenti i burimeve njer&euml;zore</h4>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+.overflow-x-auto {
+  margin-top: 20px;
+  overflow-x: scroll;
+}
+
+.card {
+  color: white;
+  font-size: 15px;
+  border-radius: 12px;
+}
+
+.label {
+  color: white;
+}
+
+.ceo-card {
+  background-color: #474CCC;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card img {
+  width: 50px;
+  align-items: center;
+  margin: 10px;
+  max-width: 80px;
+  min-width:60px;
+  max-height: 80px;
+  border-radius: 10px;
+}
+
+.hr-card {
+  background-color: #fc83af;
+}
+
+.hr-department {
+  background-color:#CA054D;
+}
+
+.it-department {
+  background-color: #136F63;
+}
+
+.flex-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.label {
+  width: auto;
+  padding: 7px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.prj-card{
+  background-color: #25dac2;
+}
+
+.w-card {
+  background-color: #9ab9fe;
+}

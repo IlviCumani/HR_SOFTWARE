@@ -1,0 +1,41 @@
+.events {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ant-badge.ant-badge-status .ant-badge-status-default {
+  background-color: #1890ff;
+}
+
+.delete-icon-card svg {
+  color: red;
+}
+
+.edit-icon-card svg {
+  color: blue;
+}
+
+.card-container {
+  margin: 2rem 0rem;
+}
+
+.drawer-container {
+  width: 250px;
+  margin-right: 20px;
+  border-radius: 4px;
+}
+.events .ant-badge-status {
+  width: 100%;
+  overflow: hidden;
+  font-size: 12px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.notes-month {
+  font-size: 28px;
+  text-align: center;
+}
+.notes-month section {
+  font-size: 28px;
+}
